@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.contenedor{
+    width: 90%;
+    max-width: 200px;
+    overflow: hidden;
+    margin:auto;
+    padding: 60px 0;
+}
+.img-galeria{
+    height: 600px;
+}
+ header{
+     height: 100vh;
+     background-image: linear-gradient(to top, rgba(59, 66, 197, 0.5) 0%, rgba(169, 129, 187, 0.5) 49%, rgba(255, 201, 169, 0.5) 100%),
+     url(../IMG/bruchete.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position:center ;
+
+ }
